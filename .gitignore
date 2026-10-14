@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.skill-evals/
+.agents/
+.claude/
+node_modules/
+preview.html
