@@ -1,0 +1,31 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Start here",
+      "description": "Build or audit the complete program.",
+      "skills": [
+        "email-marketing",
+        "email-marketing-audit"
+      ]
+    },
+    {
+      "title": "Grow and activate",
+      "skills": [
+        "email-list-growth",
+        "email-lifecycle",
+        "email-copywriting",
+        "email-calendar"
+      ]
+    },
+    {
+      "title": "Operate and learn",
+      "skills": [
+        "email-deliverability",
+        "email-experiments",
+        "ai-sdr"
+      ]
+    }
+  ]
+}

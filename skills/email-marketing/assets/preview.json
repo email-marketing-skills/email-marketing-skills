@@ -1,0 +1,79 @@
+{
+  "recipients": [
+    {
+      "id": "new-user",
+      "first_name": "",
+      "marketing_eligible": true
+    },
+    {
+      "id": "activated-user",
+      "first_name": "Sam",
+      "marketing_eligible": true
+    }
+  ],
+  "steps": [
+    {
+      "id": "welcome",
+      "after_hours": 0,
+      "when": "inactive",
+      "subject": "Create your first report",
+      "body": "Hi {first_name},\nStart with a sample CSV to create your first report. Open the local sample workflow.",
+      "cta": {
+        "type": "link",
+        "destination": "https://example.test/reports/new"
+      }
+    },
+    {
+      "id": "reminder",
+      "after_hours": 24,
+      "when": "inactive",
+      "subject": "Try a smaller file",
+      "body": "Hi {first_name},\nA few example rows are enough to try your first report.",
+      "cta": {
+        "type": "link",
+        "destination": "https://example.test/reports/new"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "signup-1",
+      "type": "signup",
+      "recipient": "new-user",
+      "hour": 0
+    },
+    {
+      "id": "signup-2",
+      "type": "signup",
+      "recipient": "activated-user",
+      "hour": 0
+    },
+    {
+      "id": "tick-0",
+      "type": "tick",
+      "hour": 0
+    },
+    {
+      "id": "activate-1",
+      "type": "activate",
+      "recipient": "activated-user",
+      "hour": 1
+    },
+    {
+      "id": "unsubscribe-1",
+      "type": "unsubscribe",
+      "recipient": "new-user",
+      "hour": 2
+    },
+    {
+      "id": "tick-24",
+      "type": "tick",
+      "hour": 24
+    },
+    {
+      "id": "tick-again",
+      "type": "tick",
+      "hour": 24
+    }
+  ]
+}
