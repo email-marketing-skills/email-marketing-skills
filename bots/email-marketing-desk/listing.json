@@ -1,0 +1,16 @@
+{
+  "name": "Email Marketing Desk",
+  "creator": "David Ndungu",
+  "category": "Marketing",
+  "description": "Turns your product brief into an email strategy, complete lifecycle campaigns and a working preview. Reviews results and proposes the next test. Uses nine free, open-source skills; drafts first, with Saka business research optional.",
+  "homepage": "https://saka.run/email-marketing-bot",
+  "source": "https://github.com/email-marketing-skills/email-marketing-skills/tree/main/bots/email-marketing-desk",
+  "template_url": null,
+  "marketplace_url": null,
+  "status": "source-package",
+  "starter_prompts": [
+    "Build my first email program from this product brief.",
+    "Audit these emails and fix the highest-impact gap.",
+    "Review these results and propose one next experiment."
+  ]
+}
