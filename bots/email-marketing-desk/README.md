@@ -11,3 +11,5 @@ An email marketer for founders and small teams: strategy, lifecycle campaigns, c
 Start with a pasted product brief. With files and terminal access, the bot produces a runnable local preview. With a results export, it proposes the next experiment. Live sending requires a separate, verified provider integration and scoped authorization. No sender or running scheduler is bundled.
 
 See [launch strategy](../../docs/bot-strategy.md). Native template publication and curated marketplace placement must be verified separately; this repository is not proof of either.
+
+[Open the public Grok template](https://x.ai/bot/WA-i9uE-95J3389btqnRk). Its public page was verified on 2026-10-15. Fresh-import testing and curated Marketing marketplace acceptance remain pending.

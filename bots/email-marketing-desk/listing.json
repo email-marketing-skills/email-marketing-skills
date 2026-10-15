@@ -5,12 +5,13 @@
   "description": "Turns your product brief into an email strategy, complete lifecycle campaigns and a working preview. Reviews results and proposes the next test. Uses nine free, open-source skills; drafts first, with Saka business research optional.",
   "homepage": "https://saka.run/email-marketing-bot",
   "source": "https://github.com/email-marketing-skills/email-marketing-skills/tree/main/bots/email-marketing-desk",
-  "template_url": null,
+  "template_url": "https://x.ai/bot/WA-i9uE-95J3389btqnRk",
   "marketplace_url": null,
-  "status": "source-package",
+  "status": "public-template",
   "starter_prompts": [
     "Build my first email program from this product brief.",
     "Audit these emails and fix the highest-impact gap.",
     "Review these results and propose one next experiment."
-  ]
+  ],
+  "import_verification": "pending"
 }
