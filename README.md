@@ -6,6 +6,10 @@ Build an email marketing strategy, lifecycle flows, complete email copy, and a l
 
 These are open-source [Agent Skills](https://agentskills.io), licensed under Apache-2.0. The instructions are plain Markdown and the optional preview runs locally with Python. You can use the library without Saka or an email-provider account. Your coding agent and external services may charge separately.
 
+## Use an email marketing bot
+
+[Email Marketing Desk](bots/email-marketing-desk/README.md) combines all nine skills into a repeatable brief, campaign, preview and review workflow. Includes pinned setup, operating instructions and paused routine recipes for Grok Bot. [Start here](https://saka.run/email-marketing-bot). Public template and marketplace availability are tracked separately from the source package.
+
 ## Start with one skill
 
 Run in the project you want to market:
